@@ -1,59 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Poems | Poetry-Haven</title>
   <style>
     body {
-      font-family: "Georgia", serif;
-      background-color: #f8f8f8;
-      padding: 40px;
+      font-family: 'Georgia', serif;
+      background-color: #f9f9f9;
       color: #222;
-    }
-
-    h1 {
-      text-align: center;
-      font-size: 2.5em;
-      margin-bottom: 40px;
-    }
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-      max-width: 600px;
+      padding: 40px;
+      max-width: 900px;
       margin: auto;
     }
 
-    li {
-      margin: 20px 0;
+    nav {
+      background-color: #eee;
+      padding: 15px;
+      text-align: center;
+      margin: -40px -40px 40px -40px;
     }
 
-    a {
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #0055aa;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 15px;
+    }
+
+    a.poem-link {
       text-decoration: none;
       color: #0055aa;
       font-size: 1.2em;
     }
 
-    a:hover {
+    a.poem-link:hover {
       text-decoration: underline;
-    }
-
-    .note {
-      text-align: center;
-      color: #555;
-      margin-top: 40px;
     }
   </style>
 </head>
 <body>
-  <h1>Explore the Poems</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="poems.html">Poems</a>
+    <a href="collection.html">Collection</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <h1>Poems</h1>
   <ul>
-    <li><a href="the-hopeful-negroes.html">The Hopeful Negroes</a></li>
-    <li><a href="Gov-LOWN-ment.html">Gov-LOWN-ment</a></li>
+    <li><a class="poem-link" href="Gov-LOWN-ment.html">Gov-LOWN-ment</a></li>
+    <!-- Add more poem links below as you build -->
+    <!-- Example:
+    <li><a class="poem-link" href="lastglance.html">Last Glance</a></li>
+    -->
   </ul>
-  
-  <div class="note">
-    More poetic expressions and insights coming soon...
-  </div>
+
 </body>
 </html>
